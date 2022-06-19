@@ -1,0 +1,1 @@
+[ ] Zmień wyszukiwanie krajów na non case-sensitive
