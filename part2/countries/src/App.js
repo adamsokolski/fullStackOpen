@@ -36,7 +36,10 @@ const App = () => {
       {countriesFiltered.length > 10 &&
         `Too many matches, specify another filter`}
       {countriesFiltered.length > 0 && (
-        <Countries countriesFiltered={countriesFiltered} />
+        <Countries
+          countriesFiltered={countriesFiltered}
+          setUserFilter={setUserFilter}
+        />
       )}
     </div>
   )
